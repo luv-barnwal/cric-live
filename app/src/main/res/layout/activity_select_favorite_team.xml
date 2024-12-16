@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectFavoriteTeam">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/selectTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Team"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="25sp"/>
+
+        <Button
+            android:id="@+id/australia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Australia"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/india"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/westIndies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="West Indies"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/england"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="England"
+            android:background="#fff" />
+
+        <Button
+            android:id="@+id/pakistan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pakistan"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/sriLanks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sri Lanka"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/southAfrica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="South Africa"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/newZealand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Zealand"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/zimbabwe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zimbabwe"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/afganistan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afganistan"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/bangladesh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangladesh"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/ireland"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ireland"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/nambia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nambia"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/unitedArabEmirates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="United Arab Emirates"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/scotland"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scotland"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/canada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canada"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/kenya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kenya"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/papuaNewGuinea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Papua New Guinea"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/nepal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nepal"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/unitedStates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="United States"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/netherlands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Netherlands"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/qatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qatar"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/wales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wales"
+            android:background="#fff" />
+        <Button
+            android:id="@+id/hongKong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afganistan"
+            android:background="#fff" />
+
+
+        <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Back"
+        android:textSize="25dp"/>
+    </LinearLayout>
+
+</ScrollView>

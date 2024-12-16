@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/playersCardView"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    android:elevation="3dp">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:stretchColumns="2">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/sno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/playerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10px"
+                android:textColor="#000" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/player_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:background="@drawable/profile_image"
+                android:scaleType="centerCrop"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/playerDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10px"
+                android:textColor="#000" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>
